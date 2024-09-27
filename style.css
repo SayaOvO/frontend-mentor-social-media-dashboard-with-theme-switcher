@@ -91,7 +91,6 @@ body {
   border-radius: 20px;
   position: relative;
   transform: translateX(0px);
-  transition: transform 0.2s ease-in;
   &::after {
     content: "";
     position: absolute;
@@ -102,6 +101,7 @@ body {
     height: 20px;
     background: white;
     border-radius: 100%;
+    transition: transform 0.2s ease-in;
   }
 
   &:hover {
